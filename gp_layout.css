@@ -22,7 +22,11 @@
 @import url("gp_designs.css");
 
 /* Flex Layout Styles */
-
+body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex:
+}
 
 
 
