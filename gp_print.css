@@ -15,25 +15,33 @@
 */
 
 
-
 /* Hidden Objects */
-
-
-
-
-
-
+/* This makes the nav footer and article not visible to the viewer. */
+nav,
+footer,
+article {
+    display: none;
+}
 
 /* Comic Book Sheet Styles */
+/* This sets the margin and width for the element with an id of #sheet and size classes. */
+section#sheet {
+    width: 6in;
+    margin: 0in auto;
+}
 
+.size1 {
+    width: 5in;
+}
 
+.size2 {
+    width: 3in;
+}
 
+.size3 {
+    width: 2in;
+}
 
-
-
-
-
-
-
-
-
+.size4 {
+    width: 1.5in;
+}
